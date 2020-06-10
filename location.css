@@ -1,0 +1,167 @@
+.haut{
+    border: 2px;
+    height: 200px;
+    background-color: hsl(25, 87%, 20%);
+    font-size: 17px;
+   color: whitesmoke;
+    font-style: italic;
+    text-align: center;
+    padding-top: 15px;
+}
+.bas{
+    border: 2px;
+    height: 70px;
+    background-color: #576317;
+    display: flex;
+    justify-content: space-between;
+    padding-top:15px;
+}
+
+.center{
+    background-image: url(maison.jpg);
+    line-height: 300px;
+}
+.c{
+    margin-left: 1700px;
+    margin-top: 15px;
+}
+.b{
+    display: flex;
+    justify-content: end;
+}
+.a{
+   text-align: center;
+}
+.fin{
+    border: 2px;
+    
+}
+.C{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+.B{
+   height: 30px;
+   width: 30px;
+}
+.acceuil{
+    display: flex;
+    justify-content: right;
+} 
+.contact{
+    height: 10px;
+    width: 10px;
+}
+.descrip{
+    font-style: oblique;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-top: solid black 2px;
+}
+.input{
+    width: 300px;
+    height: 30px;
+}
+.A{
+    width: 20%;
+    height: 300px;
+    margin: 0 3% 3% 2%;
+    border-radius: 25px 2px;
+}   
+.centre{
+    text-align: center;
+    border: black 2px solid;
+}
+.submit{
+    background-color: #0199FF;
+}
+.hom{
+    position: absolute;
+    right: 96%;
+}
+a{
+    text-decoration: none;
+}  
+.v{
+    width: 120px;
+    height: 20px;
+    border: whitesmoke solid 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+h1{
+    background-color: #0199FF;
+
+}
+h3{
+    background-color: #0199FF;
+}
+@media screen and (max-width:1280px){
+
+    .center{
+        flex-direction: column;
+    }
+    .haut{
+        border: 2px;
+        height: 200px;
+        background-color: hsl(25, 87%, 20%);
+        font-size: 7px;
+       color: whitesmoke;
+        font-style: italic;
+        text-align: center;
+    }
+    .bas{
+        border: 2px;
+        height: 70px;
+        background-color: #576317;
+        display: flex;
+        justify-content: space-between;
+    }
+    .descrip{
+        font-style: oblique;
+        color: whitesmoke;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    .A{
+        width: 350px;
+        height: 250px;
+        margin: 30px;
+        border-radius: 25px 2px;
+    }   
+    h1{
+        background-color: #0199FF;
+        font-size: 20px;
+    }
+    .v{
+        width: 73px;
+        height: 20px;
+        border: whitesmoke solid 1px;
+        border-radius: 5px;
+        font-size: 8px;
+        background-color: whitesmoke;
+        position: relative;
+        left: 3%;
+        top: 5%;
+    }
+     .hom{
+        position: absolute;
+        right: 90%;
+        bottom: 89%;
+    }
+    
+}
